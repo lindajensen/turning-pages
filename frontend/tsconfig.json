@@ -1,0 +1,21 @@
+// Notera att ChatGpt hjälpte mig med denna config-filen
+
+{
+  "compilerOptions": {
+    "target": "ESNext",                       // Specifierar målspråket (vanligtvis ESNext för moderna projekt)
+    "module": "ESNext",                       // Använd ES-moduler
+    "moduleResolution": "node",               // För att säkerställa att moduler hanteras på ett korrekt sätt
+    "jsx": "react-jsx",                       // För React-projekt med JSX
+    "esModuleInterop": true,                  // Gör det möjligt att importera CommonJS-moduler som ES-moduler
+    "skipLibCheck": true,                     // Förbättrar byggtiden genom att ignorera typkontroller av biblioteksfiler
+    "forceConsistentCasingInFileNames": true, // Förhindrar problem med filnamn (stora och små bokstäver)
+    "typeRoots": ["node_modules/@types"],     // Anger sökvägen för typer
+    "types": ["react", "react-dom", "react-router-dom"], // Anger att TypeScript ska inkludera typer för dessa moduler
+    "baseUrl": ".",                           // Grundläggande sökväg för relativ import
+    "paths": {
+      "*": ["node_modules/*"]                 // Gör det möjligt att importera från node_modules
+    }
+  },
+  "include": ["src/**/*"],  // Inkludera alla filer i src-mappen
+  "exclude": ["node_modules", "build"] // Exkludera node_modules och build från kompileringen
+}
