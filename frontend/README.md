@@ -13,7 +13,7 @@ Turning Pages is a web application inspired by Goodreads, designed for book enth
 
 ### 2. Install dependencies and start development servers
 
-First, start the backend:s
+First, start the backend:
 
 ```bash
 cd backend
