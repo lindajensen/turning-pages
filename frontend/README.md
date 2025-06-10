@@ -12,26 +12,29 @@ Turning Pages is a web application inspired by Goodreads, designed for book enth
 ### 1. Clone the Repository
 
 ### 2. Install dependencies and start development servers
-First, start the backend
+
+First, start the backend:s
+
+```bash
 cd backend
 npm install
 npm run dev
+```
 
-Then, in a separate terminal, start the frontend
+Then, in a separate terminal, start the frontend:
+
+```bash
 cd frontend
 npm install
 npm run dev
+```
 
 This will start both the backend and the frontend on their respective ports.
 
 # Ideas for Future Development
 
-Reading Challenge of the Year – A progress bar that shows how many books you've read out of your yearly goal.
-
-Monthly Challenges – For example, "Read a classic" or "Read a book by an author from another country."
-
-Book Lists – Predefined lists that users can check off, such as "100 Books to Read Before You Die."
-
-Personal Goals – Users can set their own goals, like "Read for 30 minutes a day" or "Read 10 books this year."
-
-Form for adding your own book to your reading list.
+- **Reading Challenge of the Year** – A progress bar that shows how many books you've read out of your yearly goal.
+- **Monthly Challenges** – For example, "Read a classic" or "Read a book by an author from another country."
+- **Book Lists** – Predefined lists that users can check off, such as "100 Books to Read Before You Die."
+- **Personal Goals** – Users can set their own goals, like "Read for 30 minutes a day" or "Read 10 books this year."
+- **Form for adding your own book to your reading list.**
